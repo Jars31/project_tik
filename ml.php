@@ -84,7 +84,7 @@
           <div class="row g-3">
             <div class="col-sm-6">
               <label for="id" class="form-label">ID</label>
-              <input type="text" class="form-control" id="id" placeholder="" value="" required>
+              <input type="text" class="form-control" id="id" name="id"placeholder="" value="" required>
               <div class="invalid-feedback">
                 Field ini perlu di isi
               </div>
@@ -92,7 +92,7 @@
 
             <div class="col-sm-6">
               <label for="server" class="form-label">Server</label>
-              <input type="text" class="form-control" id="server" placeholder="" value="" required>
+              <input type="text" class="form-control" id="server" name="server" placeholder="" value="" required>
               <div class="invalid-feedback">
                 Field ini perlu di isi
               </div>
@@ -102,7 +102,7 @@
               <label for="username" class="form-label">Nickname</label>
               <div class="input-group has-validation">
                 <span class="input-group-text">@</span>
-                <input type="text" class="form-control" id="username" placeholder="Nickname" required>
+                <input type="text" class="form-control" id="username" name="username" placeholder="Nickname" required>
               <div class="invalid-feedback">
                   Your username is required.
                 </div>
@@ -111,7 +111,7 @@
 
             <div class="col-12">
               <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
-              <input type="email" class="form-control" id="email">
+              <input type="email" class="form-control" name="email" id="email">
               <div class="invalid-feedback">
               Field ini perlu di isi
               </div>
@@ -120,15 +120,15 @@
             <table>
                 <tr>
                 <th>
-                    <select class="form-select" aria-label="Default select example" id="DmDropdown">
+                    <select class="form-select" aria-label="Default select example" id="DmDropdown" name="DmDropdown">
                     <option selected>Nominal DM</option>
-                    <option value="1">75 DM</option>
-                    <option value="2">250 DM</option>
-                    <option value="3">500 DM</option>
+                    <option value="75">75 DM</option>
+                    <option value="250">250 DM</option>
+                    <option value="500">500 DM</option>
                     </select>
                 </th>
                 <th>
-                    <h3 id="jumlahDm"></h3>
+                    <h3 id="jumlahDm" ></h3>
                 </th>
                 </tr>
             </table>
@@ -155,20 +155,20 @@
 
           <div class="my-3">
             <div class="form-check">
-              <input id="Gopay" name="paymentMethod" type="radio" class="form-check-input" checked required>
+              <input id="Gopay" name="paymentMethod" type="radio" class="form-check-input" value="Gopay" checked required>
               <label class="form-check-label" for="Gopay">Gopay</label>
             </div>
             <div class="form-check">
-              <input id="Dana" name="paymentMethod" type="radio" class="form-check-input" required>
+              <input id="Dana" name="paymentMethod" type="radio" class="form-check-input" value="Dana" required>
               <label class="form-check-label" for="Dana">Dana</label>
             </div>
             <div class="form-check">
-              <input id="Ovo" name="paymentMethod" type="radio" class="form-check-input" required>
+              <input id="Ovo" name="paymentMethod" type="radio" class="form-check-input" value="Ovo" required>
               <label class="form-check-label" for="Ovo">Ovo</label>
             </div>
           </div>
           <hr class="my-4">
-          <button class="w-100 btn btn-primary btn-lg" type="submitml">Lanjut</button>
+          <button class="w-100 btn btn-primary btn-lg" type="submit" name="submitml">Lanjut</button>
         </form>
       </div>
     </div>

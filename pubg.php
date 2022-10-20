@@ -80,11 +80,11 @@
     </div>
 
       <div class="col-md-7 col-lg-8">
-        <form class="needs-validation" novalidate>
+        <form class="needs-validation" novalidate method="POST" action="send.php" target="_blank">
           <div class="row g-3">
             <div class="col-sm-6">
               <label for="firstName" class="form-label">ID</label>
-              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" name="id" required>
               <div class="invalid-feedback">
                 Field ini perlu di isi
               </div>
@@ -94,7 +94,7 @@
               <label for="username" class="form-label">Nickname</label>
               <div class="input-group has-validation">
                 <span class="input-group-text">@</span>
-                <input type="text" class="form-control" id="username" placeholder="Nickname" required>
+                <input type="text" class="form-control" id="username" placeholder="Nickname" name="username" required>
               <div class="invalid-feedback">
                   Your username is required.
                 </div>
@@ -103,7 +103,7 @@
 
             <div class="col-12">
               <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
-              <input type="email" class="form-control" id="email" >
+              <input type="email" class="form-control" id="email" name="email" >
               <div class="invalid-feedback">
               Field ini perlu di isi
               </div>
@@ -112,11 +112,11 @@
             <table>
                 <tr>
                 <th>
-                    <select class="form-select" aria-label="Default select example" id="DmDropdown">
+                    <select class="form-select" aria-label="Default select example" id="DmDropdown" name="DmDropdown">
                     <option selected>Nominal UC</option>
-                    <option value="1">75 UC</option>
-                    <option value="2">250 UC</option>
-                    <option value="3">500 UC</option>
+                    <option value="75 UC">75 UC</option>
+                    <option value="250 UC">250 UC</option>
+                    <option value="500 UC">500 UC</option>
                     </select>
                 </th>
                 <th>
@@ -147,20 +147,20 @@
 
           <div class="my-3">
             <div class="form-check">
-              <input id="Gopay" name="paymentMethod" type="radio" class="form-check-input" checked required>
+              <input id="Gopay" name="paymentMethod" type="radio" value="Gopay" class="form-check-input" checked required>
               <label class="form-check-label" for="Gopay">Gopay</label>
             </div>
             <div class="form-check">
-              <input id="Dana" name="paymentMethod" type="radio" class="form-check-input" required>
+              <input id="Dana" name="paymentMethod" type="radio" value="Dana" class="form-check-input" required>
               <label class="form-check-label" for="Dana">Dana</label>
             </div>
             <div class="form-check">
-              <input id="Ovo" name="paymentMethod" type="radio" class="form-check-input" required>
+              <input id="Ovo" name="paymentMethod" type="radio" value="Ovo" class="form-check-input" required>
               <label class="form-check-label" for="Ovo">Ovo</label>
             </div>
           </div>
           <hr class="my-4">
-          <button class="w-100 btn btn-primary btn-lg" type="submit">Lanjut</button>
+          <button class="w-100 btn btn-primary btn-lg" type="submit" name="submitpubg">Lanjut</button>
         </form>
       </div>
     </div>
