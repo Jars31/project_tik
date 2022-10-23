@@ -78,13 +78,13 @@
     <header class="pb-3 mb-4 border-bottom">
       <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" viewBox="0 0 24 24"><path d="M7.388 9h9.225l-4.613 14-4.612-14zm.612-2h8l-4-5.333-4 5.333zm10.5 0h5.5l-6-6h-4l4.5 6zm-13 0l4.5-6h-3.916l-6.084 6h5.5zm-5.5 2l9.234 12-3.955-12h-5.279zm18.721 0l-3.924 12 9.203-12h-5.279z"/></svg>
-        <span class="fs-4">Top Up Game</span>
+        <span class="fs-4">KEIGHT GAMESTORE</span>
       </a>
     </header>
 
     <div class="p-5 mb-4 bg-secondary rounded-3">
       <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold text-white">Selamat Datang Di Web Hachigamestore</h1>
+        <h1 class="display-5 fw-bold text-white">Selamat Datang Di Web KEIGHT GAMESTORE</h1>
         <p class="col-md-8 fs-4 text-white">Dengan menggunakan web kami anda bisa top up game dengan aman terpercaya dan juga cepat</p>
       </div>
     </div>
@@ -107,7 +107,7 @@
     </div>
 
     <footer class="pt-3 mt-4 text-muted border-top">
-      &copy; Hachigamestore
+      &copy; KEIGHT GAMESTORE
     </footer>
   </div>
 </main>

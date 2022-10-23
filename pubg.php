@@ -114,9 +114,9 @@
                 <th>
                     <select class="form-select" aria-label="Default select example" id="DmDropdown" name="DmDropdown">
                     <option selected>Nominal UC</option>
-                    <option value="75 UC">75 UC</option>
-                    <option value="250 UC">250 UC</option>
-                    <option value="500 UC">500 UC</option>
+                    <option value="75">75 UC</option>
+                    <option value="250">250 UC</option>
+                    <option value="500">500 UC</option>
                     </select>
                 </th>
                 <th>
@@ -129,11 +129,11 @@
                 var e = document.getElementById("DmDropdown");
                 e.onchange = function() {
                     var strUser = e.options[e.selectedIndex].value;
-                    if(strUser == 1) {
+                    if(strUser == 75) {
                     document.getElementById('jumlahDm').innerHTML = 'Rp 10.000';
-                    } else if (strUser == 2){
+                    } else if (strUser == 250){
                     document.getElementById('jumlahDm').innerHTML = 'Rp 50.000';
-                    } else if (strUser == 3){
+                    } else if (strUser == 500){
                     document.getElementById('jumlahDm').innerHTML = 'Rp 100.000';
                     } else {
                     document.getElementById('jumlahDm').innerHTML = '';
@@ -167,7 +167,7 @@
   </main>
 
   <footer class="my-5 pt-5 text-muted text-center text-small">
-    <p class="mb-1">&copy; Hachigamestore</p>
+    <p class="mb-1">&copy; KEIGHT GAMESTORE</p>
   </footer>
 </div>
 
