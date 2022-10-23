@@ -84,7 +84,7 @@
 
     <div class="p-5 mb-4 bg-secondary rounded-3">
       <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold text-white">Selamat Datang Di Web Kami</h1>
+        <h1 class="display-5 fw-bold text-white">Selamat Datang Di Web Hachigamestore</h1>
         <p class="col-md-8 fs-4 text-white">Dengan menggunakan web kami anda bisa top up game dengan aman terpercaya dan juga cepat</p>
       </div>
     </div>
@@ -107,7 +107,7 @@
     </div>
 
     <footer class="pt-3 mt-4 text-muted border-top">
-      &copy; 2022
+      &copy; Hachigamestore
     </footer>
   </div>
 </main>
